@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/contacts_app"
+        android:textSize="20dp"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/ivFace"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/sad"
+        />
+    <ImageView
+        android:id="@+id/ivCall"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/call"
+        />
+    <ImageView
+        android:id="@+id/ivLocation"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/location"
+        />
+    <ImageView
+        android:id="@+id/ivWebsite"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/website"
+        />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/create_contact"
+        android:background="@color/colorPrimary"
+        />
+
+</LinearLayout>

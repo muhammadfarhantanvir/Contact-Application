@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CApplication</string>
+    <string name="contacts_app">Contacts App</string>
+    <string name="create_contact">Create Contact</string>
+    <string name="insert_name">Insert Name</string>
+    <string name="insert_phone_number">Insert Phone Number</string>
+    <string name="insert_your_address">Insert Your Address</string>
+    <string name="insert_your_website">Insert Your Website</string>
+</resources>
